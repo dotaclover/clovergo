@@ -1,0 +1,32 @@
+.env
+.env.*
+!.env.example
+/.local/
+clovergo.exe
+clovergo
+data/*
+!data/.gitkeep
+!data/library/
+data/library/*
+!data/library/.gitkeep
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+*.sqlite-shm
+*.sqlite-wal
+*.sqlite3-shm
+*.sqlite3-wal
+*.log
+*.pem
+*.key
+*.p12
+*.pfx
+*.exe
+
+# Frontend build dependencies
+frontend/node_modules/
+
+# Agent workspace (session memory, local scratch)
+/.workbuddy/
